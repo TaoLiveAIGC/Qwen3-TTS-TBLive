@@ -1,0 +1,29 @@
+# conda create -n qwen3-tts python=3.12 -y
+
+# ---- Core Qwen3-TTS runtime (upstream) ----
+qwen-tts
+
+# ---- Training (SFT + GRPO) ----
+transformers>=4.44
+accelerate>=0.30
+peft>=0.10
+trl>=0.10
+safetensors
+tensorboard
+tensorboardX
+
+# ---- Text pipeline ----
+pypinyin
+cn2an
+
+# ---- Post-selection (SSIM + CER) & GRPO rewards ----
+librosa
+soundfile
+torchaudio
+funasr
+jiwer
+# WeSpeaker: install from https://github.com/wenet-e2e/wespeaker
+# g2pw_tool is optional; pinyin/phoneme augmentation is silently disabled if absent.
+
+# ---- Optional: FlashAttention-2 for lower GPU memory ----
+# flash-attn
