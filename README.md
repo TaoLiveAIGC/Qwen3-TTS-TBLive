@@ -115,11 +115,11 @@ rate; they are interpreted inline at the position where they appear.
 
 | Token | Pause duration |
 |---|---|
-| `<sil_L2>` | 0.55 – 0.70 s |
-| `<sil_L3>` | 0.80 – 0.95 s |
-| `<sil_L4>` | 1.05 – 1.20 s |
-| `<sil_L5>` | 1.30 – 1.45 s |
-| `<sil_L6>` | 1.55 – 2.50 s |
+| `<sil_L2>` | 0.50 – 0.75 s |
+| `<sil_L3>` | 0.75 – 1.00 s |
+| `<sil_L4>` | 1.00 – 1.25 s |
+| `<sil_L5>` | 1.25 – 1.50 s |
+| `<sil_L6>` | 1.50 – 1.75 s |
 
 **Speed tokens** — like silence tokens, they can be inserted anywhere in the text and
 adjust the speaking rate of the speech that follows:
