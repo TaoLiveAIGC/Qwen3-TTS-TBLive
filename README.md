@@ -1,6 +1,6 @@
 # Qwen3-TTS-TBLive
 
-**🔊 [Live demo](https://taoliveaigc.github.io/Qwen3-TTS-TBLive/)** &nbsp;·&nbsp; TTS samples on live-streaming scripts.
+**🔊 [Live demo](https://taoliveaigc.github.io/Qwen3-TTS-TBLive-Infer/)** &nbsp;·&nbsp; TTS samples on live-streaming scripts.
 
 An extension of [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) for the Chinese
 live-streaming domain, built on the upstream `Qwen3-TTS-12Hz-1.7B-Base`
@@ -164,7 +164,7 @@ against open-source baselines. `/` marks numbers not reported.
 
 ## Demo
 
-**▶ Online demo: [https://taoliveaigc.github.io/Qwen3-TTS-TBLive/](https://taoliveaigc.github.io/Qwen3-TTS-TBLive/)**
+**▶ Online demo: [https://taoliveaigc.github.io/Qwen3-TTS-TBLive-Infer/](https://taoliveaigc.github.io/Qwen3-TTS-TBLive-Infer/)**
 
 Base vs. `TBLive` A/B samples across three live-streaming styles, plus instruction-control and digital-human video demos.
 
@@ -260,7 +260,6 @@ please consult the
 │   ├── inference_zero_shot_postprocess.py     # Zero-shot + SSIM/CER
 │   ├── inference_custom_voice_postprocess.py  # CustomVoice + SSIM/CER
 │   └── test_model_12hz_*.py                   # Upstream reference examples
-├── assets/                         # Demo samples + generation manifest (see Demo)
 ├── run_inference_postprocess.sh
 └── run_inference_custom_voice_postprocess.sh
 ```

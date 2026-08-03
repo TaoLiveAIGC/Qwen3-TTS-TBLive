@@ -32,3 +32,5 @@ voice_cache.json
 open_source_demo_infer_input.json
 .ossutilconfig
 .qoder/
+assets/
+index.html
